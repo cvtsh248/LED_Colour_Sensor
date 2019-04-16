@@ -11,7 +11,7 @@ Red LED anode must be plugged into pin anolog pin ```A0```, and its cathode must
 
 Green LED anode must be plugged into pin anolog pin ```A1```, and its cathode must be connected to ground. 
 
-Blue LED anode must be plugged into pin anolog pin ```A```, and its cathode must be connected to ground.  
+Blue LED anode must be plugged into pin anolog pin ```A2```, and its cathode must be connected to ground.  
 
 Run LED_TEST.ino on your Arduino. To calibrate, uncomment line 23 in ```LED_TEST```.ino and comment line 24 in ```LED_TEST.ino```. Shine a bright white light on to all three LEDs. Upload LED_TEST.ino to your arduino. Record down the readings in the serial monitor. Then, take these values, and replace: 
 
