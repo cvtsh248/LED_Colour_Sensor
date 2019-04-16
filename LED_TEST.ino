@@ -20,11 +20,7 @@ void loop() {
   float rel_r = (r/235)*255;
   float rel_g = (g/260)*255;
   float rel_b = (b/330)*255;
-  /*
-  Serial.println(int(round(rel_r)));
-  Serial.println(int(round(rel_g)));
-  Serial.println(int(round(rel_b)));
-  */
+  //Serial.println((String)"r:"+int(round(r))+" g:"+int(round(g))+" b:"+int(round(b)));
   Serial.println((String)"r:"+int(round(rel_r))+" g:"+int(round(rel_g))+" b:"+int(round(rel_b)));
   Serial.println('\n');
   delay(1000);
