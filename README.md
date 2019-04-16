@@ -2,7 +2,7 @@
 An arduino based colour sensor made of one red LED, one green LED and one blue LED.
 
 # Requirements
-Arduino (any), red LED, green LED, blue LED Processing (for the front end, optional).
+Arduino (any), red LED, green LED, blue LED, Processing (for the front end, optional).
 
 # Usage
 LEDs must be as close to each other as possible. 
