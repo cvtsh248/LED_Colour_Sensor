@@ -1,7 +1,7 @@
 int red = A0;
 int green = A1;
 int blue = A2; 
-//red, 235; green, 260; blue, 330; 
+//red, 235; green, 260; blue, 330; must be calibrated, but these value worked for me. see readme for calibration instructions.
 void setup() {
   Serial.begin(9600);
 }
